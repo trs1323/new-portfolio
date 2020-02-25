@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Tanner Shilson Portfolio",
   "main": "index.js",
+  "homepage": "https://trs1323.github.io/new-portfolio",
   "scripts": {
     "sass": "sass --watch scss/main.scss dist/css/main.css",
     "deploy": "gh-pages -d dist"
