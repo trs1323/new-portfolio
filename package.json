@@ -1,0 +1,19 @@
+{
+  "name": "new-portfolio",
+  "version": "1.0.0",
+  "description": "Tanner Shilson Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss/main.scss dist/css/main.css",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Tanner Shilson",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1",
+    "swup": "^2.0.8"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
