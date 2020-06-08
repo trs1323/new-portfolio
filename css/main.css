@@ -479,5 +479,10 @@ html.is-leaving .transition-showcase {
     height: auto;
   }
 }
+@media screen and (max-height: 750px) {
+  .main {
+    padding-bottom: 4rem;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
