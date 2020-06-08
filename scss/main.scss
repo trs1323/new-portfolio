@@ -382,6 +382,7 @@ html.is-leaving .transition-showcase{
 @media screen and (max-width: 1000px){
     .main{
         flex-direction: column;
+        height: 100vh;
     }
 
     .home{
@@ -454,8 +455,8 @@ html.is-leaving .transition-showcase{
     }
 }
 
-@media screen and (max-height: 750px){
+@media screen and (min-height: 700px){
     .main{
-        padding-bottom: 4rem;
+       
     }
 }
